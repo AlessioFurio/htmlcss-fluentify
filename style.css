@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/********************INIZIO HEADER*********************/
+
+header {
+    position: relative;
+    background-image: url('https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   height: 100%;
+   background: -webkit-gradient(linear, right top, left top, from(transparent), to(#001A4F));
+   background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-menu {
+    width: 70%;
+    float: left;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    float: left;
+    padding-top: 15px;
+    z-index: 2;
+}
+
+.nav-menu ul {
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-menu ul::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-menu-item {
+    float: left;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-btn-header {
+    position: relative;
+    z-index: 2;
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.nav-btn-header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.btn-general {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn-general a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-transparent {
+    border: 1px solid #fff;
+    float: left;
+    background-color: transparent;
+}
+
+.btn-transparent i {
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-transparent:hover {
+    background-color: #fff;
+}
+
+.btn-transparent:hover a,
+.btn-transparent:hover i {
+    color: #001A4F;
+}
+
+.btn-green {
+    background-color: #64DE82;
+    float: left;
+}
+
+.btn-green a {
+    color: #337142;
+}
+
+.btn-green:hover {
+    opacity: 0.9;
+}
+
+.btn-green a:hover{
+    color: #fff;
+}
+
+#choose-lang {
+    display: block;
+    width: 60px;
+    height: 40px;
+    float: left;
+    padding: 10px 0 0 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.active::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-radius: 50%;
+    background-color: #64DE82;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: -1;
+}
+
+/*********************FINE HEADER**************************/
+
+
+/***********************INIZIO JUMBOTRON***************************************/
+
+.jumbotron {
+    width: 100%;
+    height: 500px;
+}
+
+
+/***********************FINE JUMBOTRON***************************************/
