@@ -424,3 +424,187 @@ header::after{
 }
 
 /***********************FINE BANNER-APP***************************************/
+
+/***********************INIZIO BANNER-PLATFORM***************************************/
+
+.banner-platform {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content-banner-platform {
+    width: 100%;
+    margin: auto;
+}
+
+.content-banner-platform::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.img-banner-platform {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+}
+
+.caption-banner-platform {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+
+.caption-banner-platform h3 {
+    color: #001A4F;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+
+.caption-banner-platform p {
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+    line-height: 30px;
+}
+/***********************FINE BANNER-PLATFORM***************************************/
+
+
+/***********************INIZIO BANNER-PLANE***************************************/
+
+.banner-plane {
+    width: 100%;
+    background-color: #294681;
+    margin-top: 80px;
+}
+
+.content-banner-plane {
+    width: 100%;
+    margin: auto;
+}
+
+.content-banner-plane::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.title-banner-plane {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-banner-plane h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.caption-banner-plane {
+    width: 50%;
+    float: left;
+}
+
+.caption-banner-plane p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.caption-banner-plane .btn-green {
+    margin-top: 30px;
+}
+/***********************FINE BANNER-PLANE***************************************/
+
+/***********************INIZIO FOOTER***************************************/
+
+footer {
+    background-color: #001A4F;
+}
+
+.container-footer {
+    width: 80%;
+    margin: auto;
+}
+
+.content-footer {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content-footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contatti {
+    width: 16%;
+    float: left;
+}
+
+.logo-contatti {
+    padding-bottom: 30px;
+}
+
+.contatti h4 {
+    color: #fff;
+}
+
+.contatti p {
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.contatti ul li a {
+    color: #64DE82;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.container-nav-footer {
+    width: 84%;
+    float: left;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-footer {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-footer ul {
+    float: left;
+    padding-left: 30px;
+}
+
+.nav-footer ul li a {
+    color: rgb(114, 114, 114);
+}
+
+.nav-footer h4 {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.nav-footer ul li {
+    padding-top: 10px;
+}
+
+.privacy ul {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.privacy ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+/***********************FINE FOOTER***************************************/
