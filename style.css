@@ -40,7 +40,9 @@ header::after{
 
 .container{
     width: 1300px;
+    height: 100%;
     margin: auto;
+    position: relative;
 }
 
 .container::after{
@@ -101,7 +103,6 @@ header::after{
 }
 
 .btn-general {
-    background-color: #fff;
     border: 1px solid transparent;
     border-radius: 5px;
     padding: 10px 15px;
@@ -134,20 +135,20 @@ header::after{
     color: #001A4F;
 }
 
-.btn-green {
+.btn-green-header {
     background-color: #64DE82;
     float: left;
 }
 
-.btn-green a {
+.btn-green-header a {
     color: #337142;
 }
 
-.btn-green:hover {
+.btn-green-header:hover {
     opacity: 0.9;
 }
 
-.btn-green a:hover{
+.btn-green-header a:hover{
     color: #fff;
 }
 
@@ -181,8 +182,132 @@ header::after{
 
 .jumbotron {
     width: 100%;
-    height: 500px;
+    height: 600px;
+}
+
+.btn-green {
+    background-color: #64DE82;
+    width: 200px;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-green a{
+    color: #001A4F;
+}
+
+.btn-green:hover {
+    opacity: 0.9;
+}
+
+.btn-green a:hover{
+    color: #fff;
+}
+
+.content-jumbotron {
+    width: 60%;
+    position: relative;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+.content-jumbotron h4,
+.content-jumbotron h1,
+.content-jumbotron p {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.content-jumbotron h1 {
+    font-size: 50px;
+}
+
+.content-jumbotron h4 {
+    letter-spacing: 2px;
+}
+
+.content-jumbotron p {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+/***********************FINE JUMBOTRON***************************************/
+
+/***********************INIZIO MAIN***************************************/
+
+.main {
+    width: 100%;
+    height: 1000px;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    height: 1000px;
+}
+
+.main-content::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.img-main {
+    width: 60%;
+    float: left;
+}
+
+.img-main img {
+    display: block;
+    padding-bottom: 50px;
+    width: 800px;
+    height: 800px;
+}
+
+.caption-main {
+    width: 40%;
+    float: left;
+}
+
+.caption-main h1{
+    font-size: 40px;
+    color: rgb(114, 114, 114);
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
+.caption-main span {
+    color: #64DE82;
+}
+
+.row-caption {
+    border-bottom: 1px solid lightgrey;
+    width: 95%;
+}
+
+.row-caption h2{
+    color: #001A4F;
+    font-size: 27px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.row-caption p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 25px;
+    font-weight: lighter;
+    padding-bottom: 20px;
 }
 
 
-/***********************FINE JUMBOTRON***************************************/
+
+
+/***********************FINE MAIN***************************************/
