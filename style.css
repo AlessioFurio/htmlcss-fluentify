@@ -38,6 +38,13 @@ header::after{
    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
 }
 
+.header-container {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 2;
+}
+
 .container{
     width: 1300px;
     height: 100%;
@@ -242,14 +249,12 @@ header::after{
 
 .main {
     width: 100%;
-    height: 1000px;
 }
 
 .main-content {
     width: 80%;
     margin: auto;
     margin-top: 150px;
-    height: 1000px;
 }
 
 .main-content::after{
@@ -307,7 +312,115 @@ header::after{
     padding-bottom: 20px;
 }
 
+/***********************INIZIO BOTTOM-MAIN**************************************************/
 
+.bottom-main {
+    width: 100%;
+}
 
+.container-installation {
+    width: 80%;
+    margin: auto;
+}
+
+.container-installation h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(114, 114, 114);
+}
+
+.container-icon {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.container-icon::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.icon-container-installation {
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.icon-container-installation img {
+    display: block;
+    margin: auto;
+}
+
+.icon-container-installation h2 {
+    color: #001A4F;
+    font-size: 27px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.icon-container-installation p {
+    color: rgb(114, 114, 114);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/*************************FINE BOTTOM-MAIN***********************************************/
 
 /***********************FINE MAIN***************************************/
+
+
+/***********************INIZIO BANNER-APP***************************************/
+
+.banner-app {
+    background-color: #001A4F;
+    margin-top: 100px;
+}
+
+.content-banner-app {
+    width: 100%;
+    margin: auto;
+}
+
+.content-banner-app {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.caption-banner-app {
+    width: 50%;
+    padding-top: 100px;
+    float: left;
+}
+
+.caption-banner-app h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.caption-banner-app p {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.caption-banner-app h4{
+    font-size: 18px;
+    padding-top: 20px;
+    color: #64DE82;
+}
+
+.img-banner-app {
+    width: 50%;
+    float: left;
+    padding-left: 150px;
+}
+
+.img-banner-app img {
+    display: block;
+}
+
+/***********************FINE BANNER-APP***************************************/
